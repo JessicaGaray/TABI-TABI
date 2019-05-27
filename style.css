@@ -1,0 +1,265 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #d9d1ab;
+    color: #5b324b;
+    /* padding-top:5em; */
+}
+
+.navbar{
+    padding:0;
+}
+
+/* change the background color */
+.navbar-custom {
+    background-color: #d9d1ab;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #5b324b;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    background-color: #d39d49;
+}
+
+.nav-item{
+    font-family: 'Karma', serif;
+    font-size:18px;
+}
+
+.navbar-brand{
+    font-family: 'Karma', serif;
+    font-size: 30px;
+}
+
+.navbar-nav > li > a {
+    padding-top:1em;
+    padding-bottom:1em;
+    color: #5b324b;
+    /* position: relative; */
+}
+
+
+.home-content{
+    position: relative;
+    text-align: center;
+}
+
+p{
+    color:  #664237;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    color: #5b324b;
+    font-size: 60px;
+    font-family: 'Karma', serif;
+}
+
+h3{
+    color: #fff7fc;
+    font-size: 18px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+    background-color: #5b324b;
+    font-family: 'Karma', serif;
+    bottom: 0;
+}
+
+.footer-links{
+    text-decoration: underline;
+    color:white;
+    font-size: 12px;
+}
+
+.footer-links li a{
+    color:white !important;
+}
+
+footer li{
+    font-size: 12px;
+    color:white;
+}
+
+.content{
+    padding-top:5em;
+}
+
+/* .nilalang h1{
+    margin-left: -50px;
+} */
+
+.btn-success{
+    background-color: #2d674f;
+}
+
+.nilalang-text{
+    color: #2d674f;
+}
+
+.nilalang ul li a{
+  /* padding-left:5em; */
+  text-decoration:none;
+  text-decoration-color: #2d674f;
+  font-family: 'Source Sans Pro', sans-serif; 
+  color: #ae7238;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  
+  border-left: 25px solid #2d674f;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent; 
+  
+  border-right:25px solid #2d674f; 
+}
+
+.kuwentong-bayan{
+    padding-top: 9em;
+    padding-left: 6em;
+}
+
+.mantiw-bg{
+    margin-left: -6em;
+
+}
+
+.kuwentong-bayan-li a{
+    color: #5b324b;
+    text-decoration: underline;
+    padding-left: 3em;
+    font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.arrow-left-back {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid #2d674f; 
+  float: left;
+}
+
+.vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+}
+
+
+h4{
+    font-family: 'Karma', serif;
+    font-size: 24px;
+    color: #ae7238;
+}
+
+h5{
+    font-family: 'Karma', serif;
+    font-size: 30;
+    color: #ae7238;
+}
+
+h5.sub{
+    font-family: 'Karma', serif;
+    font-size: 24;
+    color: #2d674f;
+}
+
+h6{
+    font-family: 'Karma', serif;
+    font-size: 24px;
+    color: #2d674f;
+}
+
+.back-arrow-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-top:-0.2em;
+}
+
+.catao-bg{
+    background: url('img/mga-nilalang/Kataw.png') no-repeat;
+    background-position: left top;
+    background-size: 55%;
+    
+}
+
+.glossary{
+    padding-left: 1.5em;
+}
+
+.glossary.row{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.padding-left{
+    padding-left: 5em;
+}
+
+.bakunawa-bg{
+    background: url('img/mga-nilalang/Bakunawa.png') no-repeat;
+    height: 768px;
+}
+
+.sanggunian-p{
+    color: #5b324b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+p.term{
+    color: #5b324b;
+}
+
+p.def{
+    color: #2d674f;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    br {
+        display: none;
+    }
+
+    .centered{
+        display: none;
+    }
+}
+/* fonts:
+    font-family: 'Karma', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
